@@ -61,8 +61,8 @@ const MyMap = () => {
         propertySelector.map((data, index) => {
           var el = document.createElement("div");
           el.style.backgroundColor = "black";
-          el.style.width = "30px";
-          el.style.height = "30px";
+          el.style.width = "15px";
+          el.style.height = "15px";
           el.style.borderRadius = "50%";
 
           let currentMarkers = new mapboxgl.Marker(el)
